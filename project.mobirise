@@ -1,0 +1,711 @@
+{
+  "settings": {
+    "name": "snsgod",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "colorm",
+      "title": "ColorM",
+      "styling": {
+        "primaryColor": "#f39c12",
+        "buttonsColor": "#000000",
+        "secondaryColor": "#9b59b6",
+        "successColor": "#2ecc71",
+        "infoColor": "#3498db",
+        "warningColor": "#f1c40f",
+        "dangerColor": "#e74c3c",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Montserrat",
+        "textFont": "Open Sans",
+        "isRoundedButtons": true,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "favicon": "@PROJECT_PATH@/assets/images/snsgod256-128x128.png",
+    "noImageResize": "",
+    "google-analytics": "",
+    "siteUrl": "undefined",
+    "versionFirst": "4.5.3",
+    "uniqCompNum": 9,
+    "versionPublish": "4.5.4",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "<head>\n    <title>SNSGOD</title>\n    <meta property=\"og:url\" content=\"http://snsgod.co.kr/\">\n    <meta property=\"og:title\" content=\"SNSGOD\">  \n    <meta property=\"og:type\" content=\"website\">\n    <meta property=\"og:image\" content=\"https://i.imgur.com/4i5Q4Qd.jpg\">\n    <meta property=\"og:description\" content=\"SNSGOD가 고객님의 SNS 마케팅을 도와드립니다\">\n    <meta name=\"description\" content=\"SNSGOD가 고객님의 SNS 마케팅을 도와드립니다\">\n    <meta name=\"keywords\" content=\"인스타그램,인스타그램자동관리,팔로우늘리기,좋아요늘리기\">\n</head>",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".lead": {
+              "color": "#93a3a7",
+              "font-style": "italic"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "buttonAlign": "right",
+            "showArrow": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2c3e50",
+            "bgVideoRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#2980b9",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "SNS Marketing\n<div>SNS 24시간 자동 \n</div><div>광고/홍보/운영/마케팅</div>",
+          "text": "FACEBOOK · INSTAGRAM · TWITTER · YOUTUBE &nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary btn-text\" href=\"http://app.snsgod.co.kr\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">start service</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-2"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.875rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.948rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#ffffff"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#20638f"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#2677ac!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#2980b9"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f39c12!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": false,
+            "sticky": false,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#2980b9",
+            "fontSize": 0.875,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"https://mobirise.com/\">KaKAo Talk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"http://app.snsgod.co.kr\">start</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/snsgodlogo-477x106.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_styles": {
+            ".elements-content": {
+              "padding-bottom": "50px"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "2px",
+              "margin-bottom": "10px",
+              "font-weight": "700"
+            },
+            ".mbr-section-title, .tab-pane": {
+              "color": "#000"
+            },
+            ".header-text": {
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showHeader": true,
+            "showText": true,
+            "showImages": true,
+            "showTitles": true,
+            "tabs": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/04.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ecf0f1",
+            "overlayOpacity": 0.9
+          },
+          "arrowDown": "@PROJECT_PATH@/assets/images/arrowdown.png",
+          "title": "<br>SNSGOD ?",
+          "text": "<b>국내 최대 SNS 마케팅 전문 시스템&nbsp;</b><br>",
+          "title1": "국내 최대 SNS 마케팅 전문 시스템&nbsp;<br>",
+          "title2": "FACEBOOK · INSTAGRAM · TWITTER · YOUTUBE&nbsp;<br>",
+          "title3": "INSTAGRAM MARKETING&nbsp;<br>",
+          "title4": "HOST ANYWHERE",
+          "title5": "IMAGE/CONTENT SLIDER",
+          "title6": "CONTACT FORMS",
+          "tabTitle": "<li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link active\" role=\"tab\" data-toggle=\"tab\" href=\"#tab1header9-1\" aria-expanded=\"true\">service</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab2header9-1\" aria-expanded=\"false\">PRODUCTS</a></li><li class=\"nav-item\" style=\"display: block;\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab3header9-1\" aria-expanded=\"false\">best service</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab4header9-1\">Awesome</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab5header9-1\">Amazing</a></li><li class=\"nav-item\" style=\"display: none\"><a class=\"nav-link\" role=\"tab\" data-toggle=\"tab\" href=\"#tab6header9-1\">Beautiful</a></li>",
+          "media11": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb4.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media12": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb6.png",
+              "class": "card-img-top",
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media13": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb3.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media14": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb4.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media15": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb5.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media16": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/nb6.png",
+              "class": "card-img-top",
+              "active": true
+            }
+          },
+          "media21": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "setting",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "media22": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "like",
+              "family": "MobiriseIcons",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "media23": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "linkInNewWindow": false,
+              "name": "social-instagram",
+              "family": "simple-line-icons",
+              "active": true,
+              "size": 0,
+              "color": "@primaryColor"
+            }
+          },
+          "media24": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "upload",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media25": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "genius",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "media26": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-header5",
+              "name": "global",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "@primaryColor",
+              "family": "et-line"
+            }
+          },
+          "text1": "고객님들의 전문적인 마케팅을 위해 저렴한 가격으로 \n<br>24시간 자동으로 진행 되는 시스템을 도입하였습니다.<br><br>국내 최대 SNS마케팅 전문 시스템의 도입으로 \n<br>짧은 시간에 홍보효과를 최대치로 올려 \n<br>홍보 활용에 도움을 줄 수 있는 강력한 서비스 툴입니다.&nbsp;<br><br>365일 24시간 몇번의 클릭만으로 언제나 빠르고 간편하게<br>이용가능한 셀프 마케팅 서비스를 제공합니다.&nbsp;<br>",
+          "text2": "모든 채널에서 팔로워·좋아요·조회수 를 쉽고 저렴하게 늘려보세요.\n<br>\n<br>Facebook\n<br>페이지 좋아요, 게시물 좋아요 및 공유, 동영상 조회수, 계정 팔로워 늘리는 서비스<br><br>Instagram\n<br>계정팔로워, 사진 좋아요, 동영상 조회수 증가, 자동 좋아요 늘리는 서비스<br><br>Twitter\n<br>계정 팔로워, 게시물 좋아요, 리트위트 늘리는 서비스 &nbsp;&nbsp;<br><br>Youtube\n<br>동영상 조회수, 좋아요, 싫어요, 채널 구독자 늘리는 서비스<br>",
+          "text3": "인스타그램 24시간 자동 광고/홍보/운영/마케팅<br><br>실제 활동 한국인 팔로워 늘리기<br><br>해시태그 타겟팅을 기반으로 잠재고객,<br> 나와 진실한 소통을 할 수 있는 유저들에게 <br>자동으로 선팔+좋아요+댓글 소통활동을 실시합니다.<br><br>실 유저들에게 직접 소통 활동을 자동으로 실시하면서 \n<br>자발적인 팔로워, 좋아요 행동을 유도합니다.<br>",
+          "text4": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, nisi, ea. Excepturi dolores, laborum ipsum soluta aliquid, ullam repellat ratione iste harum voluptatem? Alias id blanditiis, sequi possimus dolorem dolorum.",
+          "text5": "Create a responsive, touch-swipe slideshow with <a href=\"http://mobirise.com\">Mobirise bootstrap slider</a>. Add images, text, buttons to slides, set autoplay, full-screen, full-width or boxed layout. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde sunt, illo quo ipsa. Laboriosam voluptatem sunt nisi velit incidunt labore, sapiente pariatur ipsam fugiat doloremque asperiores eos ipsum, eveniet cum.",
+          "text6": "Easily add subscribe and contact forms without any server-side integration. Just link your email to form and get submissions instantly. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium id perspiciatis, sint odit error animi veniam omnis cupiditate distinctio, a quidem deleniti laborum maiores optio laudantium earum vel! Sint, rerum.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header9",
+          "_anchor": "header9-1"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "font-weight": "700",
+              "letter-spacing": ".5vw",
+              "text-transform": "uppercase"
+            },
+            ".mbr-section-subtitle": {
+              "text-transform": "uppercase",
+              "letter-spacing": "2px",
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showImages": true,
+            "showTitles": true,
+            "ShowTexts": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": 4,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/features/03.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#1abc9c",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#f9593a",
+            "overlayOpacity": 0.9
+          },
+          "media1": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "facebook",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "instagram",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "twitter",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "linkInNewWindow": false,
+              "name": "youtube",
+              "family": "socicon",
+              "active": true,
+              "size": 0,
+              "color": "#ffffff"
+            }
+          },
+          "media5": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "globe",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "media6": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features16",
+              "name": "compass",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fc7a60",
+              "family": "cm-icon"
+            }
+          },
+          "title": "",
+          "title1": "Bootstrap 4",
+          "subtitle1": "FACEBOOK",
+          "caption1": "페이지 좋아요, 게시물 좋아요 및 공유, 동영상 조회수, 계정 팔로워 늘리는 서비스<br><br><br><br> ",
+          "title2": "Responsive",
+          "subtitle2": "INSTAGRAM\n",
+          "caption2": "계정팔로워, 사진 좋아요, 동영상 조회수 증가, 자동 좋아요 늘리는 서비스<br><br><br>",
+          "title3": "Web Fonts",
+          "subtitle3": "TWITTER",
+          "caption3": "계정 팔로워, 게시물 좋아요, 리트위트 늘리는 서비스                            \n<br>\n<br>",
+          "title4": "Unlimited Sites",
+          "subtitle4": "YOUTUBE",
+          "caption4": "동영상 조회수, 좋아요, 싫어요, 채널 구독자 늘리는 서비스",
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "buttons": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-lg btn-primary\">learn more</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features16",
+          "_anchor": "features16-5"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubtitle": true,
+            "showDates": true,
+            "blocks": "4",
+            "cardsColor": "#3498db",
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "mainTitle": "<div><br></div>SNSGOD 4step",
+          "mainSubtitle": "<br>24/7 Automatic Order Service\n<div><br></div>",
+          "title1": "회원가입 or 로그인\n",
+          "title2": "금액 (예치금) 충전\n",
+          "title3": "상품 신청\n",
+          "title4": "신청 내역 확인\n",
+          "title5": "5. Awesome Reports",
+          "title6": "6. Multi Homepages",
+          "title7": "7. Responsive Design",
+          "title8": "8. Smart Watch",
+          "title9": "9. Design out of the box",
+          "title10": "10. Awesome Reports",
+          "title11": "11. Design out of the box",
+          "title12": "12. Awesome Reports",
+          "date1": "<b>1 STEP</b>",
+          "date2": "<b>2 STEP</b>",
+          "date3": "<b>3 STEP</b>",
+          "date4": "<b>4 &nbsp;STEP</b>",
+          "date5": "5 May 2016",
+          "date6": "6 June 2016",
+          "date7": "7 July 2016",
+          "date8": "8 August 2016",
+          "date9": "9 September 2016",
+          "date10": "10 October 2016",
+          "date11": "11 November 2016",
+          "date12": "12 December 2016",
+          "text1": "SNSGOD에 회원가입\n<br>(기존회원은 로그인)을 합니다",
+          "text2": "입금 후  [고객센터] 에서 충전요청 합니다. 입금 확인 후 10분 이내 충전처리가 완료 됩니다. 금액 충전은 24시간 가능합니다.",
+          "text3": "원하는 상품을 선택 후 상품을 신청합니다.<br>모든 상품은 24시간 자동으로 접수됩니다.",
+          "text4": "상품신청 후 신청내역에서 작업 상태를 바로 확인 하실 수 있습니다.",
+          "text5": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text6": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text7": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text8": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text9": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text10": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text11": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "text12": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam erat libero, bibendum in libero tempor, luctus volutpat ligula. Integer fringilla porttitor pretium. Nam erat felis, iaculis id justo ut, ullamcorper feugiat elit. Proin vel lectus auctor, porttitor ligula vitae, convallis leo. In eget massa elit.",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features9",
+          "_anchor": "features9-6",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#666666"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "H4": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#999999"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700",
+              "text-transform": "uppercase",
+              "margin-top": "40px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape2.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#f39c12",
+            "bgText": "SNSGOD Snsfactory is the best sns marketing service.",
+            "bgTextStyle": "Montserrat",
+            "bgTextColor": "#f1c40f",
+            "bgTextSize": "250",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "S N S G O D",
+          "text": "국내 최대 SNS 마케팅 전문 시스템",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"http://app.snsgod.co.kr\" data-toolbar=\"-mbrBtnMove\">Start now</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "animated-bg1",
+          "_anchor": "animated-bg1-3"
+        },
+        {
+          "_styles": {
+            ".display-1": {
+              "font-weight": "700"
+            },
+            ".lead": {
+              "color": "#fff",
+              "text-transform": "uppercase",
+              "margin-bottom": "0"
+            },
+            ".mbr-section-title": {
+              "text-align": "left",
+              "font-size": "72px",
+              "color": "#999999"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000"
+            }
+          },
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=HnPYeBJ9JCc"
+            },
+            "overlay": true,
+            "overlayColor": "#16a085",
+            "overlayOpacity": 0.9
+          },
+          "title": "Thanks for your interest in SNSGOD",
+          "text": "궁금한 점이 있으시면 언제든지 연락주세요. ",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"#top\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"icon54-v1-conference-chat mbr-iconfont mbr-iconfont-btn\"></span>무료상담</a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "call1",
+          "_anchor": "call1-7"
+        },
+        {
+          "_styles": {},
+          "_params": {
+            "logo": true,
+            "showTitles": true,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/snsgodlogo-477x106.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "title1": "Subscribe and get the latest news",
+          "form": {
+            "action": "hjy2815@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "visible": false,
+                "title": "Name",
+                "customTitle": "Name*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\"><span class=\"cm-icon cm-icon-paperplane\"></span></a>",
+          "alias": "colorm/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-8"
+        }
+      ]
+    }
+  }
+}
