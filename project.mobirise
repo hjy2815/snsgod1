@@ -29,8 +29,9 @@
     "siteUrl": "undefined",
     "versionFirst": "4.5.3",
     "uniqCompNum": 9,
-    "versionPublish": "4.5.4",
-    "screenshot": "screenshot.png"
+    "versionPublish": "4.8.1",
+    "screenshot": "screenshot.png",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
@@ -148,7 +149,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"http://app.snsgod.co.kr\">KaKAo Talk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"http://app.snsgod.co.kr\">start</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-warning-outline btn-warning\" href=\"http://pf.kakao.com/_zxgjbd\">KaKAo Talk</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"http://megafollow.co.kr\">start</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -586,7 +587,7 @@
           },
           "title": "S N S G O D",
           "text": "국내 최대 SNS 마케팅 전문 시스템",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"http://app.snsgod.co.kr\" data-toolbar=\"-mbrBtnMove\">Start now</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-white\" href=\"http://megafollow.co.kr\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Start now</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
@@ -634,7 +635,7 @@
           },
           "title": "Thanks for your interest in SNSGOD",
           "text": "궁금한 점이 있으시면 언제든지 연락주세요. ",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"#top\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"icon54-v1-conference-chat mbr-iconfont mbr-iconfont-btn\"></span>무료상담</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"http://pf.kakao.com/_zxgjbd\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"icon54-v1-conference-chat mbr-iconfont mbr-iconfont-btn\"></span>무료상담</a>",
           "alias": "colorm/components",
           "_tags": [
             "Theme"
